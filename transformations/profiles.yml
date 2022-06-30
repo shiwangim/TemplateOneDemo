@@ -1,0 +1,14 @@
+template_one_demo:
+  outputs:
+
+    sqlserver:
+      type: sqlserver
+      driver: 'ODBC Driver 17 for SQL Server'
+      server: PartnerEnableme\SQLEXPRESS
+      port: 1433
+      user: partnerEnablement
+      password: partnerEnablementPass!
+      database: TemplateOneSql
+      schema:Template_one_sql_schema
+
+  target: sqlserver
